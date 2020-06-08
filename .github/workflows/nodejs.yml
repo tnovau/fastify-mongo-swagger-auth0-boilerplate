@@ -1,6 +1,10 @@
 name: Node.js CI
 
-on: [pull_request]
+on:
+  pull_request:
+    branches: [ master ]
+  push:
+    branches: [ master ]
 
 jobs:
   build:
@@ -18,7 +22,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn
-    - run: yarn test
+    - run: yarn test:coverage
     - run: yarn lint
+    - name: Codecov
+      uses: codecov/codecov-action@v1.0.6
       env:
         CI: true
