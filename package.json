@@ -1,0 +1,44 @@
+{
+  "name": "@your-org/server",
+  "version": "0.0.1",
+  "description": "Generic server",
+  "main": "./src/index.js",
+  "repository": "https://github.com/your-org/server.git",
+  "author": "Your org",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "fastify": "2.14.1",
+    "fastify-auth0-verify": "0.2.0",
+    "fastify-cors": "3.0.3",
+    "fastify-plugin": "1.6.1",
+    "fastify-swagger": "2.6.0",
+    "mongodb": "3.5.8",
+    "ramda": "0.27.0"
+  },
+  "scripts": {
+    "lint": "eslint ./src/**/*.js ./test/**/*.js",
+    "start": "node ./src/index",
+    "test": "cross-env NODE_ENV=test mocha ./test/unit/**/*.js",
+    "test:coverage": "cross-env NODE_ENV=test c8 --reporter=html --reporter=text yarn test",
+    "test:integration": "cross-env NODE_ENV=test mocha ./test/integration/**/*.js",
+    "ci": "yarn && yarn test && yarn lint"
+  },
+  "devDependencies": {
+    "@types/mongodb": "3.5.20",
+    "c8": "7.1.2",
+    "chai": "4.2.0",
+    "cross-env": "7.0.2",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.21.1",
+    "mocha": "7.2.0",
+    "sinon": "9.0.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": "14.x",
+    "yarn": "1.x"
+  }
+}
