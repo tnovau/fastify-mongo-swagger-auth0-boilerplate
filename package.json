@@ -21,7 +21,7 @@
     "lint": "eslint ./src/**/*.js ./test/**/*.js",
     "start": "node ./src/index",
     "test": "cross-env NODE_ENV=test mocha ./test/unit/**/*.js",
-    "test:coverage": "cross-env NODE_ENV=test c8 --reporter=html --reporter=text yarn test",
+    "test:coverage": "cross-env NODE_ENV=test c8 --reporter=html --reporter=lcov --reporter=text yarn test",
     "test:integration": "cross-env NODE_ENV=test mocha ./test/integration/**/*.js",
     "ci": "yarn && yarn test && yarn lint"
   },
