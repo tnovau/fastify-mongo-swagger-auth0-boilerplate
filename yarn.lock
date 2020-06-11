@@ -333,10 +333,10 @@ buffer-equal-constant-time@1.0.1:
   resolved "https://registry.yarnpkg.com/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
   integrity sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=
 
-c8@7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/c8/-/c8-7.1.2.tgz#3fd785e8d264175ceffe92c74607f5cfb12f018d"
-  integrity sha512-lCEwL9lbvWOQLxoLw8RF7PM8Cdj+rKxRp/PyWC9S8xASvYHRwXQ2gxzsNTgLhQM1Utc1YDAjzQYPQIxVEyelGg==
+c8@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/c8/-/c8-7.2.0.tgz#47cf3ab18d0ff3c0254572f6f4a70cee3d702dbf"
+  integrity sha512-6ZnvGem2HkcOnfRflVojBHKqGj5JGxoSSYvk8U9qF87WYbq3vpdjAQPE+Gr0jxpTaAM/N3nxx30TIWB5u0PhWw==
   dependencies:
     "@bcoe/v8-coverage" "^0.2.3"
     "@istanbuljs/schema" "^0.1.2"
