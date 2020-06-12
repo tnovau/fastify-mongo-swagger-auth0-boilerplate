@@ -1,4 +1,3 @@
-
 import chai from 'chai';
 import {
   DEFAULTS_CONFIG,
@@ -17,7 +16,6 @@ const TEST_DB_URI = 'dbUri';
 const TEST_HOST = '127.0.0.1';
 const TEST_LOGGER_DISABLED = 'false';
 const TEST_PORT = '443';
-
 
 describe('Config', () => {
   describe('getConfigByProcess', () => {

@@ -5,7 +5,6 @@ import dbExtensions from './db-extensions.js';
 import routes from './routes.js';
 import swagger from './swagger.js';
 
-
 /**
  * @param {string} dbName
  * @param {string} dbUri
