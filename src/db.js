@@ -31,7 +31,7 @@ export default fp(
         return dbClient;
       } catch (error) {
         app.log.error(error);
-        return process.exit(1);
+        throw error;
       }
     };
 

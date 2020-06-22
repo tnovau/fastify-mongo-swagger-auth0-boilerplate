@@ -56,7 +56,7 @@ const getAppServerPort = (app) => app.server.address().port;
  */
 const handleServerListenError = (app, appListenResult) => {
   app.log.error(appListenResult.error);
-  process.exit(1);
+  throw new Error('Error, the app can\'t listen in the port especified.');
 };
 
 /** @param {import('fastify').FastifyInstance} app */
