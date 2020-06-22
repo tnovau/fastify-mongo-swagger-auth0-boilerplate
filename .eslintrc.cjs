@@ -5,17 +5,20 @@ module.exports = {
     mocha: true
   },
   extends: [
-    'airbnb-base',
+    "eslint:recommended",
+    "plugin:node/recommended"
   ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
-  rules: {
-    "import/extensions": 0
-  },
+  "rules": {
+    "node/no-unpublished-import": ["error", {
+        "allowModules": ["chai", "sinon"]
+    }]
+  }
 };
