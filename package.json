@@ -26,7 +26,7 @@
     "ci": "yarn && yarn test && yarn lint"
   },
   "devDependencies": {
-    "@types/mongodb": "3.5.24",
+    "@types/mongodb": "3.5.25",
     "c8": "7.2.0",
     "chai": "4.2.0",
     "cross-env": "7.0.2",
