@@ -1046,10 +1046,10 @@ fastify-swagger@3.1.2:
     js-yaml "^3.14.0"
     json-schema-resolver "^1.2.0"
 
-fastify@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.0.3.tgz#5a422a1532c7904a1d55df4ee2938143def5ab43"
-  integrity sha512-XygDalzdaCKso6xEpo1S7g9hr3yn4ZfftSys6lF6+F+zQpXcWgZism+hpX/YwdlQHaTRb3NVTWxzpJn1WYlBlQ==
+fastify@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.1.1.tgz#0a830f4a929abd7f2b05c08620a609a104300a36"
+  integrity sha512-A7kBZIFAdpE/8MZ9qHpQV9IVPpfX63uWMaPN4p0fetax10C2p56iV/VEB5hOgtlXzayGn+4tf+tNHcZsfrjlnA==
   dependencies:
     abstract-logging "^2.0.0"
     ajv "^6.12.2"
