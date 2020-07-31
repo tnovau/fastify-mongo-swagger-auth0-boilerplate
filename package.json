@@ -15,7 +15,7 @@
     "fastify-plugin": "2.0.3",
     "fastify-swagger": "3.1.2",
     "mongodb": "3.5.9",
-    "ramda": "0.27.0"
+    "ramda": "0.27.1"
   },
   "scripts": {
     "lint": "eslint ./src/**/*.js ./test/**/*.js",
