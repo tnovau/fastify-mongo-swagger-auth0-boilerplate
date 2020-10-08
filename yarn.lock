@@ -363,10 +363,10 @@ buffer-equal-constant-time@1.0.1:
   resolved "https://registry.yarnpkg.com/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
   integrity sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=
 
-c8@7.3.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/c8/-/c8-7.3.1.tgz#5cbcfb72e3b4ea104f0717bfe6fba50c62a3f15c"
-  integrity sha512-GXddMEWjNkw6OHQx0bRc+4Sk65beqQq9gBHLJxEYlmu3q+yIIBQpOjBApPyRcFjLTJHsWdWtrOMjLJkX7q7irQ==
+c8@7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/c8/-/c8-7.3.2.tgz#1eb8e2126a8a79ef426754d360ffe56cfa039b0e"
+  integrity sha512-7yC8oYh+EFF9SyAnxaUaSCAsYqY672Y+EpQB6c6Q5q58O7Ctykeuw4I/JSPoqoj2imiPYEQIbX3NTe/ZxZfLaQ==
   dependencies:
     "@bcoe/v8-coverage" "^0.2.3"
     "@istanbuljs/schema" "^0.1.2"
@@ -378,7 +378,7 @@ c8@7.3.1:
     istanbul-reports "^3.0.2"
     rimraf "^3.0.0"
     test-exclude "^6.0.0"
-    v8-to-istanbul "^5.0.0"
+    v8-to-istanbul "^6.0.0"
     yargs "^16.0.0"
     yargs-parser "^20.0.0"
 
@@ -2704,10 +2704,10 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.1.0.tgz#e14de37b31a6d194f5690d67efc4e7f6fc6ab30e"
   integrity sha512-usZBT3PW+LOjM25wbqIlZwPeJV+3OSz3M1k1Ws8snlW39dZyYL9lOGC5FgPVHfk0jKmjiDV8Z0mIbVQPiwFs7g==
 
-v8-to-istanbul@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-5.0.0.tgz#87d2d1827ccd1821b84b5bcbe2d82ad8b6f3787b"
-  integrity sha512-x4Kbx2kGS+N+095L7Wgim6BECRTQUPtrbDhRFcfL1KLnzvhViKiJOy8Pl9FCRelja9ss4VsIzEHTT3cbc+fNFw==
+v8-to-istanbul@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-6.0.0.tgz#645c3f4a0cdfc8a1ae5dc48ec6cf7328e7bec50a"
+  integrity sha512-o01hYXgLQVFfF1QOo7LeSqxC6J2BdnVS+dT6YGrKFMouLtLS7UTrjWVqYgkeef/iTpovP1WHyeDq0lRuLCEyIg==
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
