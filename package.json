@@ -10,7 +10,7 @@
   "dependencies": {
     "dotenv": "8.2.0",
     "fastify": "3.7.0",
-    "fastify-auth0-verify": "0.3.1",
+    "fastify-auth0-verify": "0.3.2",
     "fastify-cors": "4.1.0",
     "fastify-plugin": "3.0.0",
     "fastify-swagger": "3.4.0",
