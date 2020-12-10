@@ -915,10 +915,10 @@ fastify-auth0-verify@0.4.0:
     node-cache "^5.0.1"
     node-fetch "^2.6.1"
 
-fastify-cors@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-5.0.0.tgz#83885f87fec644b5849f5cba9607aa5070803b20"
-  integrity sha512-r7nQCEewNlwCF98ovNDlG89Et5tpbt+aYNLyTY3l2bwH213ZndKwhgqtlqWsJHOQ5naIRgwgzzkUbHVOYVL3/g==
+fastify-cors@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-5.1.0.tgz#f34b11ed0b84fdc212edc2ad38c92ff85f163b8e"
+  integrity sha512-PTq4wSBFljXmbFKmp5eKW9gg0m488nXBl+OSTb/vnWXXLvVn7HFk7WKgt7uQVfd9UuksveCGTXipVlus3qhmrw==
   dependencies:
     fastify-plugin "^3.0.0"
     vary "^1.1.2"
