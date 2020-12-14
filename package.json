@@ -11,7 +11,7 @@
     "dotenv": "8.2.0",
     "fastify": "3.9.1",
     "fastify-auth0-verify": "0.4.0",
-    "fastify-cors": "5.0.0",
+    "fastify-cors": "5.1.0",
     "fastify-plugin": "3.0.0",
     "fastify-swagger": "3.5.0",
     "mongodb": "3.6.3",
