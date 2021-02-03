@@ -14,7 +14,7 @@
     "fastify-cors": "5.2.0",
     "fastify-plugin": "3.0.0",
     "fastify-swagger": "4.0.1",
-    "mongodb": "3.6.3",
+    "mongodb": "3.6.4",
     "ramda": "0.27.1"
   },
   "scripts": {
