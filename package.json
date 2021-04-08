@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/mongodb": "3.6.12",
-    "c8": "7.7.0",
+    "c8": "7.7.1",
     "chai": "4.3.4",
     "cross-env": "7.0.3",
     "eslint": "7.23.0",
