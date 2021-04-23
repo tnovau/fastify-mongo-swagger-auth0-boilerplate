@@ -904,10 +904,10 @@ fastfall@^1.5.0:
   dependencies:
     reusify "^1.0.0"
 
-fastify-auth0-verify@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/fastify-auth0-verify/-/fastify-auth0-verify-0.4.2.tgz#96281adeb13f0f8298f3ffe80647d141411f28d6"
-  integrity sha512-l7LBdS5mAYJgYD+khzB3DH5ZLuO2+/MxOa2NsKIowDAcrVntteUavMQljvweLWQLFe1KfmmmZEbf5JktlSYtoQ==
+fastify-auth0-verify@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/fastify-auth0-verify/-/fastify-auth0-verify-0.5.0.tgz#cc57eafc3d153df41a312a9878a633882131ca7b"
+  integrity sha512-7hiU1qsVuZkSCHMBROvC1yEn13uOqXSKHLnMRyLUWyPSVQXsfp+JUqCP3kCYpX66YbmCvsWdP6pvumVizWlP0g==
   dependencies:
     fastify-jwt "^2.1.2"
     fastify-plugin "^3.0.0"
