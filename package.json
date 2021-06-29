@@ -13,7 +13,7 @@
     "fastify-auth0-verify": "0.5.2",
     "fastify-cors": "6.0.1",
     "fastify-plugin": "3.0.0",
-    "fastify-swagger": "4.8.0",
+    "fastify-swagger": "4.8.1",
     "mongodb": "3.6.9",
     "ramda": "0.27.1"
   },
