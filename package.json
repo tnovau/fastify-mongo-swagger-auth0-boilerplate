@@ -9,7 +9,7 @@
   "private": true,
   "dependencies": {
     "dotenv": "10.0.0",
-    "fastify": "3.19.2",
+    "fastify": "3.20.0",
     "fastify-auth0-verify": "0.5.2",
     "fastify-cors": "6.0.2",
     "fastify-plugin": "3.0.0",
